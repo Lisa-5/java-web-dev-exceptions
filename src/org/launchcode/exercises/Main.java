@@ -18,7 +18,7 @@ public class Main {
 
         // Test out your CheckFileExtension() function!
         for (Map.Entry<String, String> student: studentFiles.entrySet()) {
-            CheckFileExtention(student.getValue());
+            System.out.println(student.getKey() + " (" + (Main.CheckFileExtension(student.getValue()) + ")"));
         }
 
     }
